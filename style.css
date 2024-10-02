@@ -1,0 +1,32 @@
+
+body{
+    background-color: #6c3b94;
+
+}
+#start{
+    margin-inline-start: 600px;
+    font-size: 50px;
+}
+.image1{
+    align-items: baseline;
+    width: 300px;
+    height: 200px;
+    margin-inline-start: 100px;
+    transition: 1s;
+}
+.image1:hover{
+    width: 350px;
+    height: 250px;
+    transition: 1s;
+    rotate: 5deg;
+}
+.text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 15px;
+    margin-inline-start: 30px;
+    transition: 2s;
+}
+.text:hover{
+    font-size: 40px;
+}
